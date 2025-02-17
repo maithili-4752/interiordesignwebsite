@@ -1,0 +1,65 @@
+.contact-section{
+    padding: 80px 0px;
+}
+.contact-content-form{
+    margin-left: 0px;
+}
+.form-grp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-control{
+    padding: 14px 15px;
+    color: #283132;
+    border: 1px solid #EAF0EC;
+    border-radius: 0;
+    display: inline-block;
+}
+.contact-para{
+    margin-bottom: 18px;
+}
+.contact-getin{
+    padding-bottom:80px;
+}
+.getin-para{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contact-data{
+    margin-bottom:80px ;
+}
+.contact-types{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.contact-types .icon-box{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    background-color: #EAF0EC;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.email-icon{
+    padding: 7px 23px 10px;
+}
+.contact-info-content h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #192324;
+    margin-bottom: 10px;
+}
+.contact-info-content p{
+    color: #283132;
+    margin: 0;
+}
+@media(min-width:992px){
+    .contact-content-form{
+        margin-left: 30px;
+    }
+}

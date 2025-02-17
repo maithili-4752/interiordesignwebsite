@@ -1,0 +1,132 @@
+
+.home-btn{
+    color: #fff;
+    text-decoration: none;
+}
+.shopwrapper{
+    padding: 80px 0px;
+}
+.product-search{
+    width: 250px;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 0 auto
+}
+.shop-content{
+    background-color:#F8F8F8 ;
+}
+.product-search input{
+    border: none;
+    background: transparent;
+}
+.categories-data h2{
+    font-size: 30px ;
+    font-weight: 600;
+    color: #000;
+    margin: 30px 0px;
+    text-align: center;
+}
+.category-items span{
+    display: block;
+    color: #ababab;
+}
+.category-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #ababab;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.category-items:hover{
+    color: #ababab;
+}
+.recent-content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.recent-cat-img img{
+    width: 70px;
+    height: 70px;
+}
+.recent-cat-img{
+    margin-right: 20px;
+    background-color: #fff;
+}
+.recent-cat-info h4{
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.recent-cat-info p{
+    margin: 0;
+    color: #ababab;
+}
+.discount-price span{
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: line-through;
+}
+.discount-price p{
+    color: #ababab;
+    padding: 7px 0px;
+    margin: 0;
+}
+.icon-color{
+    color: rgb(255 194 0);
+}
+.tags-content .tags{
+    font-size: 15px;
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0px 10px 10px 0px;
+    color: #fff;
+    background-color: #7C877F;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.tags-content .tags:hover{
+    background-color: #000;
+}
+.shop-sub-content{
+    margin-right: 30px;
+}
+.shop-item-details{
+    padding: 20px;
+}
+.shop-link{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.product-tag{
+    position: relative;
+}
+.shop-detaild-info{
+    margin-bottom: 35px;
+}
+.product-label{
+    background-color: #EAF0EC;
+    color: #000;
+}
+.add-cart{
+    background-color: #121212;
+    color: #F8F8F8;
+    padding: 6px 0px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    cursor: pointer;
+}
+/* .shop-imgs img:hover .sale{
+    visibility:visible;
+} */

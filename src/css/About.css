@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about-wrap{
+    padding-top: 80px;
+}
+.about-section{
+    background-image: url(../images/background/section-bg-shape-1.svg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+}
+.ab-img2{
+    margin-top: 10px;
+}
+.abt-imgs img{
+    width: 100%;
+}
+
+/* width: 400px;1 img */
+
+/* .ab-img3{
+    position: relative;
+    bottom: 258px;
+    left: 20px;
+} */
+.about-content{
+    margin-top: 40px;
+}
+.about-data1{
+    margin-bottom: 40px;
+}
+.about-content{
+    margin-left: 0px;
+}
+.about-feature{
+    padding: 80px 0px;
+    
+}
+.about-feature-data{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.about-feature-data .feature-icon{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    background-color:#EAF0EC;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    padding: 18px
+}
+.about-feature-data .feature-icon img{
+    max-width: 24px;
+}
+.about h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.about-mission{
+    padding: 100px 0px 50px;
+    background: linear-gradient(180deg, #192324 60%, #FFFFFF 40%);
+}
+.mission-content{
+    margin-left: 0px;
+}
+.mission-row{
+    margin-bottom: 80px;
+}
+.vision-content{
+    margin: 0px 15px;
+    background-color: #F8F8F8;
+}
+.about p{
+    margin: 20px 0px 0px 0px;
+}
+.vision-info{
+    padding: 40px 35px;
+}
+
+.mission-vision-icon{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background-color:#EAF0EC;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.mission-vision-icon img{
+    position: relative;
+    width: 30px;
+}
+.vision-info:hover .mission-vision-icon{
+    background-color:#192324;
+}
+.vision-info:hover .mission-vision-icon img{
+    filter: brightness(0) invert(1);
+}
+@media(min-width:768px){
+    .abt-imgs img{
+        width: 49%;
+    }
+    .abt-imgs{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .ab-img2{
+        margin-top: 0px;
+    }
+    .about-content{
+        margin-left: 50px;
+    }
+    .about p{
+        margin: 20px 20px 0px 0px;
+    }
+    .vision-info{
+        padding: 40px 35px;
+    }
+
+}
+@media(min-width:992px){
+    .abt-imgs{
+        position: relative;
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .ab-img2{
+
+        position: absolute;
+        top: 245px;
+        right: 20px;
+    }
+    .abt-imgs .ab-img2{
+        width: 50%;
+    }
+    .abt-imgs .ab-img1{
+        width: 77%;
+    }
+    .mission-content{
+        margin-left: 120px;
+    }
+    .about p{
+        margin: 20px 50px 0px 0px;
+    }
+    .vision-info{
+        padding: 45px 60px;
+    }
+    /* .ab-img{
+        position: relative;
+        left: 215px;
+        bottom: 123px;
+    }
+    .abt-imgs img{
+        width: 100%;
+        object-fit: cover;
+        aspect-ratio: 1 / 0.76;
+    } */
+}

@@ -1,0 +1,11 @@
+.gallery-wraper{
+    padding: 80px 0px;
+}
+.gallery-img img{
+    width: 100%;
+    aspect-ratio: 1 / 0.85;
+    object-fit: cover;
+}
+.gallery-img{
+    margin-bottom: 30px;
+}
