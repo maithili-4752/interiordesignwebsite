@@ -64,6 +64,10 @@
     padding: 10px 15px;
     color: #fff;
     text-decoration: none;
+    transition: 0.4s;
+  }
+  .getintouch-btn .cont-btn:hover{
+    background-color: #000;
   }
   .btn-primary{
     --bs-btn-active-bg: none;
