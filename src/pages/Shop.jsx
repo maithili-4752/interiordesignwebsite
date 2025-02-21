@@ -103,7 +103,7 @@ const Shop = () => {
             </div>
             <div className="col-sm-12 col-lg-8">
               <div className="row">
-                <div className="col-sm-12 col-lg-4">
+                <div className="col-sm-12 col-md-6 col-lg-4">
                   <div className="shop-detaild-info">
                     <div className="collection-item-info text-center">
                       <div className="collection-item-data">
@@ -122,7 +122,7 @@ const Shop = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-lg-4">
+                <div className="col-sm-12 col-md-6 col-lg-4">
                   <div className="shop-detaild-info">
                     <div className="collection-item-info text-center">
                       <div className="collection-item-data">
@@ -140,7 +140,7 @@ const Shop = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-lg-4">
+                <div className="col-sm-12 col-md-6 col-lg-4">
                   <div className="shop-detaild-info">
                     <div className="collection-item-info text-center">
                       <div className="collection-item-data">
@@ -159,7 +159,7 @@ const Shop = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-lg-4">
+                <div className="col-sm-12 col-md-6 col-lg-4">
                   <div className="shop-detaild-info">
                     <div className="collection-item-info text-center">
                       <div className="collection-item-data">
@@ -177,7 +177,7 @@ const Shop = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-lg-4">
+                <div className="col-sm-12 col-md-6 col-lg-4">
                   <div className="shop-detaild-info">
                     <div className="collection-item-info text-center">
                       <div className="collection-item-data">
@@ -196,7 +196,7 @@ const Shop = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-lg-4">
+                <div className="col-sm-12 col-md-6 col-lg-4">
                   <div className="shop-detaild-info">
                     <div className="collection-item-info text-center">
                       <div className="collection-item-data">
@@ -214,7 +214,7 @@ const Shop = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-lg-4">
+                <div className="col-sm-12 col-md-6 col-lg-4">
                   <div className="shop-detaild-info">
                     <div className="collection-item-info text-center">
                       <div className="collection-item-data">
@@ -232,7 +232,7 @@ const Shop = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-lg-4">
+                <div className="col-sm-12 col-md-6 col-lg-4">
                   <div className="shop-detaild-info">
                     <div className="collection-item-info text-center">
                       <div className="collection-item-data">
@@ -251,7 +251,7 @@ const Shop = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-lg-4">
+                <div className="col-sm-12 col-md-6 col-lg-4">
                   <div className="shop-detaild-info">
                     <div className="collection-item-info text-center">
                       <div className="collection-item-data">

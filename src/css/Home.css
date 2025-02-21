@@ -94,7 +94,7 @@
     margin-bottom: 0px;
 }
 .project-info .project-link{
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
     color: #fff;
     font-weight: 700;
@@ -112,6 +112,9 @@
 }
 @media(min-width:768px){
     .section-sub-data h3{
+        font-size: 20px;
+    }
+    .project-info .project-link{
         font-size: 20px;
     }
 }

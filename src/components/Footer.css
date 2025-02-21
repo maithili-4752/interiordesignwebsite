@@ -25,7 +25,7 @@
     margin-top: 15px;
 }
 .foot-data-center{
-    padding-left:0px ;
+    padding-left:0px;
 }
 .footer-list{
     margin-top: 32px;
@@ -90,7 +90,7 @@
 .content-item-info p{
     margin: 0;
 }
-@media(min-width:768px){
+@media(min-width:992px){
     .foot-data-center{
         padding-left: 30px;
     }

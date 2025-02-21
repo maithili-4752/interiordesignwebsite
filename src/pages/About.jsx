@@ -46,7 +46,7 @@ function About() {
                                         <p><AiTwotoneCheckCircle /> client-centered approach</p>
                                     </div>
                                     <div className="explore-btn">
-                                        <Link to='/about' className="section-btn">Contact Now </Link>
+                                        <Link to='/contact' className="section-btn">Contact Now </Link>
                                     </div>
                                     <div className="about-data2"></div>
                                 </div>

@@ -19,7 +19,7 @@ const Fewprojects = () => {
                                 </div>
                                 <div className="service-info project-info">
                                     <h3>Residential Spaces</h3>
-                                    <h2><Link to='' className='project-link' >Urban Retreat: Modern Design Meets Comfort</Link></h2>
+                                    <h2><Link to='/project' className='project-link' >Urban Retreat: Modern Design Meets Comfort</Link></h2>
                                 </div>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ const Fewprojects = () => {
                                 </div>
                                 <div className="service-info project-info">
                                     <h3>Luxury Homes</h3>
-                                    <h2><Link to='' className='project-link' >Luxurious Loft: Industrial Chic For Living</Link></h2>
+                                    <h2><Link to='/project' className='project-link' >Luxurious Loft: Industrial Chic For Living</Link></h2>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ const Fewprojects = () => {
                                 </div>
                                 <div className="service-info project-info">
                                     <h3>Outdoor Living Spaces</h3>
-                                    <h2><Link to='' className='project-link' >Coastal Vibes: Serenity By The Sea</Link></h2>
+                                    <h2><Link to='/project' className='project-link' >Coastal Vibes: Serenity By The Sea</Link></h2>
                                 </div>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ const Fewprojects = () => {
                                 </div>
                                 <div className="service-info project-info">
                                     <h3>Modern Designs</h3>
-                                    <h2><Link to='' className='project-link' >Minimalist Haven: Simple, Clean, Inviting Spaces</Link></h2>
+                                    <h2><Link to='/project' className='project-link' >Minimalist Haven: Simple, Clean, Inviting Spaces</Link></h2>
                                 </div>
                             </div>
                         </div>

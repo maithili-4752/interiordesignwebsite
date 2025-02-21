@@ -97,7 +97,7 @@ function Home() {
                                         <img src={Serviceimg1} alt="" />
                                     </div>
                                     <div className="service-info">
-                                        <h3><Link to='' className='service-item-link'>Residential Interior  Design</Link></h3>
+                                        <h3><Link to='/residencial' className='service-item-link'>Residential Interior  Design</Link></h3>
                                         <p className='m-0'>We create personalized living    spaces that reflect your   style and functional needs. </p>
                                     </div>
                                 </div>
@@ -110,7 +110,7 @@ function Home() {
                                         <img src={Serviceimg2} alt="" />
                                     </div>
                                     <div className="service-info">
-                                        <h3><Link to='' className='service-item-link'>Commercial interior design</Link></h3>
+                                        <h3><Link to='/commercial' className='service-item-link'>Commercial interior design</Link></h3>
                                         <p className='m-0'>Enhancing business environments with professional, functional, and aesthetically. </p>
 
                                     </div>
@@ -124,7 +124,7 @@ function Home() {
                                         <img src={Serviceimg3} alt="" />
                                     </div>
                                     <div className="service-info">
-                                        <h3><Link to='' className='service-item-link'>Furniture and Decor Selection</Link></h3>
+                                        <h3><Link to='/modernfurniture' className='service-item-link'>Furniture and Decor Selection</Link></h3>
                                         <p className='m-0'>Our experts help you choose the perfect furniture and decor complement your style. </p>
                                     </div>
                                 </div>

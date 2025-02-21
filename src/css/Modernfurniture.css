@@ -85,6 +85,10 @@
     padding: 80px 0px;
     color: #fff;
 }
+.funiture-details{
+    box-shadow: 0 5px 10px rgba(206, 206, 216, 0.4);
+    margin-bottom: 40px;
+}
 .light-color{
     color: #fff;
 }

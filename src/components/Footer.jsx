@@ -3,7 +3,7 @@ import './Footer.css';
 import { Link } from "react-router-dom";
 import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 import { BsFillTelephoneFill, BsFillGeoAltFill, BsEnvelope } from "react-icons/bs";
-import Footerlogo from '../images/illustration/footer-logo.svg';
+import Footerlogo from '../images/illustration/footer-logo.png';
 
 
 const Footer = () => {
@@ -14,8 +14,8 @@ const Footer = () => {
           <div className="row mb-5">
             <div className="col-sm-12 col-md-6 col-lg-3">
               <div className="footer-content">
-                <div className="footer-logo">
-                  <img src={Footerlogo} alt="footer Logo" />
+                <div className="logo">
+                <Link to='/'><img src={Footerlogo} alt="logo" /></Link>
                 </div>
                 <div className="footer-info">
                   <p>Our design professionals are equipped to help you determine

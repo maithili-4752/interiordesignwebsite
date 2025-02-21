@@ -1,6 +1,6 @@
 import React from 'react'
 import '../components/Navigation.css';
-import logoimg from '../images/illustration/logo.svg'
+import logoimg from '../images/illustration/logo.png'
 import { BsList } from "react-icons/bs";
 import { NavLink } from "react-router-dom";
 import Dropdown from 'react-bootstrap/Dropdown';
@@ -15,7 +15,7 @@ const Navigation = () => {
                     <BsList />
                 </label>
                 <div className="logo">
-                    <img src={logoimg} alt="logo" />
+                    <Link to='/'><img src={logoimg} alt="logo" /></Link>
                 </div>
                 <ul className='nav-list-links'>
                     <li><NavLink to='/' className="nav-link">Home </NavLink></li>

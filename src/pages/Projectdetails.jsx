@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiTwotoneCheckCircle } from "react-icons/ai";
-import { BsFillTelephoneFill, BsEnvelope } from "react-icons/bs";
+import { BsFillTelephoneFill, BsEnvelope,BsCalendar, BsClock, BsCheckCircle, BsFillGeoAltFill, BsPerson } from "react-icons/bs";
 import Projectdetailsimg from '../images/illustration/project-1.jpg';
 import Projecgalleryimg1 from '../images/illustration/gallery-1.jpg';
 import Projecgalleryimg2 from '../images/illustration/gallery-2.jpg';
@@ -32,35 +32,35 @@ const Projectdetails = () => {
                             <div className="project-details-sidebar">
                                 <ul className='project-details-box'>
                                     <li className='project-details-list'>
-                                        <div className="project-details-icon"><BsEnvelope className='icon' /></div>
+                                        <div className="project-details-icon"><BsCalendar className='icon' /></div>
                                         <div className="project-sub-details">
                                             <h3>Project Date:</h3>
                                             <p>10 December, 2024</p>
                                         </div>
                                     </li>
                                     <li className='project-details-list'>
-                                        <div className="project-details-icon"><BsEnvelope className='icon' /></div>
+                                        <div className="project-details-icon"><BsClock className='icon' /></div>
                                         <div className="project-sub-details">
                                             <h3>Project Duration:</h3>
                                             <p>12 Hours / Week</p>
                                         </div>
                                     </li>
                                     <li className='project-details-list'>
-                                        <div className="project-details-icon"><BsFillTelephoneFill className='icon' /></div>
+                                        <div className="project-details-icon"><BsCheckCircle className='icon' /></div>
                                         <div className="project-sub-details">
                                             <h3>Category:</h3>
                                             <p>Residential Interior Renovation</p>
                                         </div>
                                     </li>
                                     <li className='project-details-list'>
-                                        <div className="project-details-icon"><BsEnvelope className='icon' /></div>
+                                        <div className="project-details-icon"><BsPerson className='icon' /></div>
                                         <div className="project-sub-details">
                                             <h3>Client / Company:</h3>
                                             <p>Luxe Interiors</p>
                                         </div>
                                     </li>
                                     <li className='project-details-list'>
-                                        <div className="project-details-icon"><BsFillTelephoneFill className='icon' /></div>
+                                        <div className="project-details-icon"><BsFillGeoAltFill className='icon' /></div>
                                         <div className="project-sub-details">
                                             <h3>Project Location:</h3>
                                             <p>789 maple avenue, design city</p>
@@ -82,7 +82,7 @@ const Projectdetails = () => {
                                         <div className='project-details-list'>
                                             <div className="project-details-icon"><BsEnvelope className='icon' /></div>
                                             <div className="project-sub-details">
-                                                <p>interiordesign@gmail.com</p>
+                                                <p>inspired@gmail.com</p>
                                             </div>
                                         </div>
                                     </div>
@@ -127,7 +127,7 @@ const Projectdetails = () => {
                                         </ul>
                                     </div>
                                     <div className="services-btn">
-                                        <Link to='/service' className="section-btn">See All Images</Link>
+                                        <Link to='/gallery' className="section-btn">See All Images</Link>
                                     </div>
                                 </div>
                             </div>

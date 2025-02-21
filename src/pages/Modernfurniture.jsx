@@ -65,8 +65,6 @@ const Modernfurniture = () => {
                                 </div>
                                 <p>Create a space you love with our hand-picked selection of modern furniture. From minimalist designs to statement pieces, we offer high-quality, stylish furniture to suit every taste.</p>
 
-                                {/* <p>From the creation of concepts to space planning leading to solutions, we take care of everything. Generate the most creative ideas and brands hence adding value to each interaction.</p> */}
-
                                 <p>Discover sleek, contemporary pieces that elevate your home. Generate the most creative ideas and brands hence adding value to each interaction.</p>
                                 <div className="read-more-btn">
                                     <Link to='/projectdetailspage' className="section-btn">Read More</Link>

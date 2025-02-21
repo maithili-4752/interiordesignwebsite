@@ -89,7 +89,7 @@ const Residentialpage = () => {
                   </div>
                   <div className="service-info commercial-pj">
                     <p className='m-0'>Residential</p>
-                    <h3><Link to='/commercial' className='service-item-link'>Modern Cafeteria Zone</Link></h3>
+                    <h3><Link to='/projectdetailspage' className='service-item-link'>Modern Cafeteria Zone</Link></h3>
                   </div>
                 </div>
               </div>
@@ -102,7 +102,7 @@ const Residentialpage = () => {
                   </div>
                   <div className="service-info commercial-pj">
                     <p className='m-0'>Residential</p>
-                    <h3><Link to='/commercial' className='service-item-link'>Office Room</Link></h3>
+                    <h3><Link to='/projectdetailspage' className='service-item-link'>Office Room</Link></h3>
                   </div>
                 </div>
               </div>
@@ -115,7 +115,7 @@ const Residentialpage = () => {
                   </div>
                   <div className="service-info commercial-pj">
                     <p className='m-0'>Residential</p>
-                    <h3><Link to='/commercial' className='service-item-link'>Modern Designs</Link></h3>
+                    <h3><Link to='/projectdetailspage' className='service-item-link'>Modern Designs</Link></h3>
                   </div>
                 </div>
               </div>
@@ -128,7 +128,7 @@ const Residentialpage = () => {
                   </div>
                   <div className="service-info commercial-pj">
                     <p className='m-0'>Residential</p>
-                    <h3><Link to='/commercial' className='service-item-link'>Modern Living Room</Link></h3>
+                    <h3><Link to='/projectdetailspage' className='service-item-link'>Modern Living Room</Link></h3>
                   </div>
                 </div>
               </div>
@@ -141,7 +141,7 @@ const Residentialpage = () => {
                   </div>
                   <div className="service-info commercial-pj">
                     <p className='m-0'>Residential</p>
-                    <h3><Link to='/commercial' className='service-item-link'>Meeting Area</Link></h3>
+                    <h3><Link to='/projectdetailspage' className='service-item-link'>Meeting Area</Link></h3>
                   </div>
                 </div>
               </div>
@@ -154,7 +154,7 @@ const Residentialpage = () => {
                   </div>
                   <div className="service-info commercial-pj">
                     <p className='m-0'>Residential</p>
-                    <h3><Link to='/commercial' className='service-item-link'>Hotel Tables</Link></h3>
+                    <h3><Link to='/projectdetailspage' className='service-item-link'>Hotel Tables</Link></h3>
                   </div>
                 </div>
               </div>
@@ -162,7 +162,7 @@ const Residentialpage = () => {
           </div>
           <div className="row">
             <div className="services-btn">
-              <Link to='/projects' className="section-btn">See All Projects</Link>
+              <Link to='/project' className="section-btn">See All Projects</Link>
             </div>
           </div>
         </div>
@@ -190,7 +190,7 @@ const Residentialpage = () => {
                   <li>Free Lifetime Support</li>
                 </ul>
                 <div className="price-btn">
-                  <Link to='' className="section-btn">PURCHASE</Link>
+                  <Link to='/shop' className="section-btn">PURCHASE</Link>
                 </div>
               </div>
             </div>
@@ -209,7 +209,7 @@ const Residentialpage = () => {
                   <li>Free Lifetime Support</li>
                 </ul>
                 <div className="price-btn">
-                  <Link to='' className="section-btn">PURCHASE</Link>
+                  <Link to='/shop' className="section-btn">PURCHASE</Link>
                 </div>
               </div>
             </div>
@@ -228,7 +228,7 @@ const Residentialpage = () => {
                   <li>Free Lifetime Support</li>
                 </ul>
                 <div className="price-btn">
-                  <Link to='' className="section-btn">PURCHASE</Link>
+                  <Link to='/shop' className="section-btn">PURCHASE</Link>
                 </div>
               </div>
             </div>
@@ -247,7 +247,7 @@ const Residentialpage = () => {
                   <li>Free Lifetime Support</li>
                 </ul>
                 <div className="price-btn">
-                  <Link to='' className="section-btn">PURCHASE</Link>
+                  <Link to='/shop' className="section-btn">PURCHASE</Link>
                 </div>
               </div>
             </div>
