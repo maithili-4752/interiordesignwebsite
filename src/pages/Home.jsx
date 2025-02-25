@@ -138,7 +138,7 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <Howwework/>
+            <Howwework />
             <section className='latest-project'>
                 <div className="container-fluid">
                     <div className="row row-section align-items-center">
