@@ -10,7 +10,6 @@ import abtimg2 from '../images/illustration/about-img-2.jpg';
 import Serviceimg1 from '../images/illustration/service-1.jpg';
 import Serviceimg2 from '../images/illustration/service-2.jpg';
 import Serviceimg3 from '../images/illustration/service-3.jpg';
-
 import '../css/Home.css';
 
 

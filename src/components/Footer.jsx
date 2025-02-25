@@ -1,9 +1,9 @@
 import React from 'react'
-import './Footer.css';
 import { Link } from "react-router-dom";
 import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 import { BsFillTelephoneFill, BsFillGeoAltFill, BsEnvelope } from "react-icons/bs";
 import Footerlogo from '../images/illustration/footer-logo.png';
+import './Footer.css';
 
 
 const Footer = () => {
