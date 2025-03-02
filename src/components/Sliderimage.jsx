@@ -12,7 +12,7 @@ const Sliderimage = () => {
             <Carousel>
                 <Carousel.Item>
                     <div className="hero-section">
-                        <img src={Heroimg1} alt="" w-100 />
+                        <img src={Heroimg1} alt="" w-100  />
                     </div>
                     <Carousel.Caption className='hero-wrapper'>
                         <section className="hero-section hero">
