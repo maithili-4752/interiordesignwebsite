@@ -25,8 +25,6 @@
     background-color: #F8F8F8;
     padding:100px 0px ;
 }
-/* background-attachment: fixed; */
-    /* padding: 100px 0px; */
 .choose-data-img{
     position: relative;
     width: 60px;
@@ -38,6 +36,13 @@
     margin-right: 20px;
     border-radius: 50%;
     padding: 17px;
+    transition: 0.5s;
+}
+.choose-data:hover .choose-data-img{
+    background-color:#192324;
+}
+.choose-data:hover .choose-data-img img{
+    filter: brightness(0) invert(1);
 }
 .choose-data-img img{
     max-width: 24px;

@@ -8,6 +8,7 @@
     align-items: end;
     /* padding: 30px; */
     margin-bottom: 30px;
+    transition: 0.5s;
 }
 .service-img img{
     width: 100%;

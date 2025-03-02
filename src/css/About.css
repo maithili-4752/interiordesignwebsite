@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .about-wrap{
     padding-top: 80px;
 }
@@ -13,6 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 80px 0px;
+    background-attachment: fixed;
 }
 .ab-img2{
     margin-top: 10px;
@@ -20,14 +17,6 @@
 .abt-imgs img{
     width: 100%;
 }
-
-/* width: 400px;1 img */
-
-/* .ab-img3{
-    position: relative;
-    bottom: 258px;
-    left: 20px;
-} */
 .about-content{
     margin-top: 40px;
 }
@@ -39,7 +28,6 @@
 }
 .about-feature{
     padding: 80px 0px;
-    
 }
 .about-feature-data{
     display: flex;
@@ -56,7 +44,8 @@
     justify-content: center;
     align-items: center;
     margin-right: 20px;
-    padding: 18px
+    padding: 18px;
+    transition: 0.5s;
 }
 .about-feature-data .feature-icon img{
     max-width: 24px;
@@ -106,6 +95,12 @@
     background-color:#192324;
 }
 .vision-info:hover .mission-vision-icon img{
+    filter: brightness(0) invert(1);
+}
+.about-feature-data:hover .feature-icon{
+    background-color:#192324;
+}
+.about-feature-data:hover .feature-icon img{
     filter: brightness(0) invert(1);
 }
 @media(min-width:768px){
@@ -159,14 +154,4 @@
     .vision-info{
         padding: 45px 60px;
     }
-    /* .ab-img{
-        position: relative;
-        left: 215px;
-        bottom: 123px;
-    }
-    .abt-imgs img{
-        width: 100%;
-        object-fit: cover;
-        aspect-ratio: 1 / 0.76;
-    } */
 }

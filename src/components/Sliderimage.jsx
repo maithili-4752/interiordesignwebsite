@@ -73,7 +73,7 @@ const Sliderimage = () => {
                                             <div className="section-title">
                                                 <h3 className='hero-subtitle'>Inspired interiors</h3>
                                                 <h1>Creating Beautiful Living Spaces</h1>
-                                                <p className='hero-para'>We specialize in creating personalized, functional, and  stylish interiors that reflect your unique vision.</p>
+                                                <p className='hero-para'>We specialize in creating personalized, functional and  stylish interiors that reflect your unique vision.</p>
                                             </div>
                                             <div className="explore-btn">
                                                 <Link to='/about' className="section-btn">Explore More </Link>

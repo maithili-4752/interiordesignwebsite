@@ -82,7 +82,7 @@ const Residentialpage = () => {
           </div>
           <div className="row">
             <div className="col-12 col-md-6 col-lg-4 type cat1">
-              <div className="service-item">
+              <div className="service-item card-detail">
                 <div className="service-item-data">
                   <div className="commercial-pj-img">
                     <img src={Commercialpj1} alt="" />
@@ -95,7 +95,7 @@ const Residentialpage = () => {
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 type cat2">
-              <div className="service-item">
+              <div className="service-item card-detail">
                 <div className="service-item-data">
                   <div className="commercial-pj-img">
                     <img src={Commercialpj2} alt="" />
@@ -108,7 +108,7 @@ const Residentialpage = () => {
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 type cat4">
-              <div className="service-item">
+              <div className="service-item card-detail">
                 <div className="service-item-data">
                   <div className="commercial-pj-img">
                     <img src={Commercialpj3} alt="" />
@@ -121,7 +121,7 @@ const Residentialpage = () => {
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 type cat1">
-              <div className="service-item">
+              <div className="service-item card-detail">
                 <div className="service-item-data">
                   <div className="commercial-pj-img">
                     <img src={Commercialpj4} alt="" />
@@ -134,7 +134,7 @@ const Residentialpage = () => {
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 type cat2">
-              <div className="service-item">
+              <div className="service-item card-detail">
                 <div className="service-item-data">
                   <div className="commercial-pj-img">
                     <img src={Commercialpj5} alt="" />
@@ -147,7 +147,7 @@ const Residentialpage = () => {
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 type cat3">
-              <div className="service-item">
+              <div className="service-item card-detail">
                 <div className="service-item-data">
                   <div className="commercial-pj-img">
                     <img src={Commercialpj6} alt="" />

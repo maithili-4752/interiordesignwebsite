@@ -43,6 +43,7 @@ const Services = () => {
               </div>
             </div>
           </div>
+          <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-md-6 col-lg-4">
               <div className="service-item">
@@ -52,7 +53,7 @@ const Services = () => {
                   </div>
                   <div className="service-info">
                     <h3><Link to='' className='service-item-link'>Residential Interior  Design</Link></h3>
-                    <p className='m-0'>We create personalized living    spaces that reflect your   style and functional needs. </p>
+                    <p className='m-0'>We create personalized living spaces that reflect your   style and functional needs. </p>
                   </div>
                 </div>
               </div>
@@ -83,6 +84,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </section>

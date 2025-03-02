@@ -112,6 +112,7 @@ const Shop = () => {
                           <div className='add-label product-label'><span>SALE</span> </div>
                           <div className='add-cart'><span>ADD TO CART</span> </div>
                         </div>
+                        
                         <div className="shop-item-details discount-price">
                           <h2 className='m-0'><Link to='' className='shop-link' >
                             Glass Table</Link></h2>

@@ -8,7 +8,6 @@ import Galleryimg6 from '../images/illustration/gallery-6.jpg';
 import Galleryimg7 from '../images/illustration/gallery-7.jpg';
 import Galleryimg8 from '../images/illustration/gallery-9.jpg';
 import { Link } from 'react-router-dom';
-import '../css/Gallery.css';
 
 const Gallerypage = () => {
   return (

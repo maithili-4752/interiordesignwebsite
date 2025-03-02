@@ -23,10 +23,10 @@ const Footer = () => {
                 </div>
                 <div className="imp-icons">
                   <ul className='footer-icons d-flex align-items-center'>
-                    <li><Link to="" className='foot-links'><BsInstagram/></Link></li>
-                    <li><Link to="" className='foot-links'><BsLinkedin/></Link></li>
-                    <li><Link to="" className='foot-links'><BsTwitter/></Link></li>
-                    <li><Link to="" className='foot-links'><BsFacebook/></Link></li>
+                    <li><Link to="https://www.instagram.com/" className='foot-links'><BsInstagram/></Link></li>
+                    <li><Link to="https://www.linkedin.com/" className='foot-links'><BsLinkedin/></Link></li>
+                    <li><Link to="https://www.twitter.com/" className='foot-links'><BsTwitter/></Link></li>
+                    <li><Link to="https://www.facebook.com/" className='foot-links'><BsFacebook/></Link></li>
                   </ul>
                 </div>
               </div>
@@ -35,10 +35,10 @@ const Footer = () => {
               <div className="footer-content foot-data foot-data-center">
                 <h3>Information</h3>
                 <ul className='footer-list'>
-                  <li><Link to="" className='foot-links'>About our Company</Link></li>
-                  <li><Link to="" className='foot-links'>View our Services</Link></li>
-                  <li><Link to="" className='foot-links'>Careers At Company</Link></li>
-                  <li><Link to="" className='foot-links'>Our Latest Projects</Link></li>
+                  <li><Link to="/about" className='foot-links'>About our Company</Link></li>
+                  <li><Link to="/allservice" className='foot-links'>View our Services</Link></li>
+                  <li><Link to="/" className='foot-links'>Careers At Company</Link></li>
+                  <li><Link to="/project" className='foot-links'>Our Latest Projects</Link></li>
                 </ul>
               </div>
             </div>
@@ -46,10 +46,10 @@ const Footer = () => {
               <div className="footer-content foot-data foot-data-center">
               <h3>Portfolio</h3>
                 <ul className='footer-list'>
-                  <li><Link to="" className='foot-links'>Luxury Home Design</Link></li>
-                  <li><Link to="" className='foot-links'>Residential Interior</Link></li>
-                  <li><Link to="" className='foot-links'>Office Interior</Link></li>
-                  <li><Link to="" className='foot-links'>Restoration Design</Link></li>
+                  <li><Link to="/residencial" className='foot-links'>Luxury Home Design</Link></li>
+                  <li><Link to="/commercial" className='foot-links'>Commercial Interior</Link></li>
+                  <li><Link to="/" className='foot-links'>Office Interior</Link></li>
+                  <li><Link to="/residencial" className='foot-links'>Restoration Design</Link></li>
                 </ul>
               </div>
             </div>
@@ -86,7 +86,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer-border"></div>
-          <p className='footer-end'>Copyright © 2025 All Rights Reserved / Created by Maithili Ingale</p>
+          <p className='footer-end'>Copyright © 2025 All Rights Reserved / Designed by Inspired Interiors</p>
         </div>
       </div>
     </div>
