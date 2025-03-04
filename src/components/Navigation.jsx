@@ -27,10 +27,10 @@ const Navigation = () => {
                         </Dropdown.Toggle>
 
                         <Dropdown.Menu>
-                            <Dropdown.Item href="/allservice" className="nav-link drop-space">All Services </Dropdown.Item>
-                            <Dropdown.Item href="/residencial" className="nav-link drop-space">Residential Interior </Dropdown.Item>
-                            <Dropdown.Item href="/commercial" className="nav-link drop-space">Commercial Interior</Dropdown.Item>
-                            <Dropdown.Item href="/modernfurniture" className="nav-link drop-space">Modern Furniture</Dropdown.Item>
+                            <NavLink to='/allservice' className="nav-link nav-link drop-space">All Services </NavLink>
+                            <NavLink to='/residencial' className="nav-link nav-link drop-space">Residential Interior </NavLink>
+                            <NavLink to='/commercial' className="nav-link nav-link drop-space">Commercial Interior </NavLink>
+                            <NavLink to='/modernfurniture' className="nav-link nav-link drop-space">Modern Furniture </NavLink>                          
                         </Dropdown.Menu>
                     </Dropdown></li>
                     <li><NavLink to='/project' className="nav-link">Projects</NavLink></li>
@@ -42,9 +42,9 @@ const Navigation = () => {
                         </Dropdown.Toggle>
 
                         <Dropdown.Menu>
-                            <Dropdown.Item href="/projectdetailspage" className="nav-link drop-space">Project Details</Dropdown.Item>
-                            <Dropdown.Item href="/gallery" className="nav-link drop-space">Gallery</Dropdown.Item>
-                            <Dropdown.Item href="/privacypolicy" className="nav-link drop-space">Privacy Policy </Dropdown.Item>
+                            <NavLink to='/projectdetailspage' className="nav-link nav-link drop-space">Project Details </NavLink>
+                            <NavLink to='/gallery' className="nav-link nav-link drop-space">Gallery </NavLink>
+                            <NavLink to='/privacypolicy' className="nav-link nav-link drop-space">Privacy Policy </NavLink>
                         </Dropdown.Menu>
                     </Dropdown></li>
                 </ul>

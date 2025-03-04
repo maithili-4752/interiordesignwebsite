@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div>
       <div className="footer-wrap">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row mb-5">
             <div className="col-sm-12 col-md-6 col-lg-3">
               <div className="footer-content">

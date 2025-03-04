@@ -91,7 +91,12 @@ nav {
 .drop-space {
   padding: 2px 20px;
 }
-
+.dropdown-menu{
+  position: absolute;
+  inset: 0px auto auto 0px;
+  transform: translate3d(0px, 26px, 0px);
+  width: 180px;
+}
 @media (max-width: 768px) {
   .checkbtn {
     display: block;
