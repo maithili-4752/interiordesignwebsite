@@ -78,7 +78,7 @@ const Footer = () => {
                       <span><BsFillGeoAltFill className='icon'/></span>
                     </div>
                     <div className="content-item-info">
-                      <p> Genera 54, Mysłowice 41-412</p>
+                      <p> Punadi, Palus, Sangli 416308</p>
                     </div>
                   </div>
                 </div>

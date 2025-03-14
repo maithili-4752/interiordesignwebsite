@@ -10,6 +10,8 @@ import Commercialpj6 from '../images/illustration/hotel-tables.jpg';
 import Howwework from '../components/Howwework';
 import { Link } from 'react-router-dom';
 
+
+
 $(function () {
 
   $('.project-item-link').on("click", function () {

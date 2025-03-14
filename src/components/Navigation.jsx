@@ -28,7 +28,7 @@ const Navigation = () => {
 
                         <Dropdown.Menu>
                             <NavLink to='/allservice' className="nav-link nav-link drop-space">All Services </NavLink>
-                            <NavLink to='/residencial' className="nav-link nav-link drop-space">Residential Interior </NavLink>
+                            <NavLink to='/residential' className="nav-link nav-link drop-space">Residential Interior </NavLink>
                             <NavLink to='/commercial' className="nav-link nav-link drop-space">Commercial Interior </NavLink>
                             <NavLink to='/modernfurniture' className="nav-link nav-link drop-space">Modern Furniture </NavLink>                          
                         </Dropdown.Menu>

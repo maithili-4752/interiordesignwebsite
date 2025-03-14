@@ -19,7 +19,6 @@ import '../css/Modernfurniture.css';
 
 
 
-
 $(function () {
 
     $('.project-item-link').on("click", function () {
@@ -208,7 +207,7 @@ const Modernfurniture = () => {
                         <div className="col-12 col-md-6 col-lg-4 type cat1 cat2">
                             <div className="funiture-details">
                                 <div className="furniture-info">
-                                    <div className="furniture-imgs product-tag ">
+                                    <div className="furniture-imgs product-tag">
                                         <img src={Furnitureimg4} alt="" className='img-fluid'/>
                                         <div className='add-like'><span><BsHeart/></span> </div>
                                     </div>

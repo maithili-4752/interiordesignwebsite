@@ -95,7 +95,7 @@ nav {
   position: absolute;
   inset: 0px auto auto 0px;
   transform: translate3d(0px, 26px, 0px);
-  width: 180px;
+  width: 190px;
 }
 @media (max-width: 768px) {
   .checkbtn {
