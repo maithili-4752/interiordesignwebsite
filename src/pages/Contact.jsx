@@ -66,7 +66,7 @@ const Contact = () => {
               <p className='getin-para'>Get in touch to discuss your employee wellbeing needs today. Pleasegive us a call, drop us an email or fill out the contact form and we'llget back to you.</p>
             </div>
           </div>
-          <div className="row">
+          <div className="row align-items-center">
             <div className="col-sm-12 col-md-6 col-lg-4">
               <div className="contact-types">
                 <div className="icon-box">
@@ -98,7 +98,7 @@ const Contact = () => {
                 </div>
                 <div className="contact-info-content">
                   <h3>Headquarter</h3>
-                  <p> Westheimer Santa Illinois 85486</p>
+                  <p> Punadi, Palus, Sangli 416308</p>
                 </div>
               </div>
             </div>
